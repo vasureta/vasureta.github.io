@@ -1,7 +1,146 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World!1</h1>
-<p>I'm Kumar Vasureta</p>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body background="/Users/kumarvasureta/Desktop/web3/img1/6.jpg">
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>My Family</h1>
+<hr>
+
+<h2>Gallery</h2>
+<p>Scroll down to come in my life.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <Img src=../img1/1.jpg alt="image not found" style="width:100%">
+      <h3>Baba</h3>
+      <p>Backbone of our family.His blessing always help us to achive any things.I don't say or express but i always respect u most.You do various things for me without think about your health or anythings.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <Img src=../img1/4.jpg alt="image not found" style="width:100%">
+      <h3>Dadi</h3>
+      <p>The person who love me most u always give me love care support, delightful blend of laughter,caring deeds,wonderful stories and love.Miss u always in every part of my life.If i achive any thing in my life it will be due to  your blessing.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <Img src=../img1/2.jpg alt="image not found" style="width:100%">
+      <h3>Dady</h3>
+      <p>I never express how much i love u dady.I know i am not perpect son various time i dispoint u sorry for that.GOd gift me world best parent who always support in each and every time.In childhood i not understand your love and care but now when i need u most u always support me. At this time i understand how much u love me.YOu always sacrifice for us.Thanks dad for everythings love u alots.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <Img src=../img1/8.jpg alt="image not found" style="width:100%">
+      <h3>Mummy</h3>
+      <p>God could not be everywhere, and therefore he made mothers.Sometime i say u mummy sometimes maa but everytime u take care of me.You love me always wheather i do anything for u or not your love dont based on what i do for u or what i respond to u.U always give me felling how lucky i am to get u as a mother.I dont need to expres what i want you always understand that itself.I dont have to tell how much i love u maa because everyone in our familys knows i love u alots.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <Img src=../img1/5.jpg alt="image not found" style="width:100%">
+
+      <h3>Sister</h3>
+      <p>She is the one who i only tease but not a single time she respond me back.She always take care of me in every time.She also protect me various time. U are pure soul of our family.Yor are the person who always care me protect me and also feed me.</p>
+    </div>
+  </div>
+
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <Img src=../img1/6.jpg alt="image not found" style="width:100%">
+
+  <h3>MY LIFELINE</h3>
+  <p>This is my family.In which each and every person care for each other someone express someone not but all of us love each other.Some people think we dont like each other yes you all are right we love each other not only like.If i not express my feel to any one it doesnot means i donot love him.ANd love is not  for express it is for feel from inside.</p>
+  <p>MISS U DADI I WILL ALWAYS REGRET I COULD NOT GIVE YOU SOMETHING OR DO ANYTHING FOR YOU.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.prince.com/prince/default.asp" target="_blank">prince.kumar</a></p>
+</footer>
 </body>
 </html>
